@@ -1,0 +1,104 @@
+* {
+  font-family: "Times New Roman", Times, serif, serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+.text1 {
+  background-color: #ffcaff;
+  color: #000000;
+}
+
+.text2 {
+  background-color: #caffe4;
+  color: #000000;
+}
+
+.text3 {
+  background-color: #e5ffca;
+  color: #000000;
+}
+
+.merah {
+  background-color: #ff0028;
+  color: #ffffff;
+}
+
+.klik {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 0.6em;
+  color: #000000;
+  cursor: pointer;
+  align-self: center;
+  font-weight: 400;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.test {
+  transition: box-shadow 100ms ease-in-out, color 300ms ease-in-out;
+}
+
+.test:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.klik:hover {
+  color: #ffffff;
+  outline: none;
+}
+
+.bonus {
+  display: none;
+}
+
+.kotak {
+  border: 2px solid black;
+  border-radius: 0.6em;
+  padding: 5px 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.kotak:hover {
+  border: 2px solid white;
+}
+
+.utama {
+  display: none;
+}
+
+.video {
+  background-color: #ff0028;
+  color: #ffffff;
+}
+
+.video p {
+  font-size: 14px;
+}
+
+.video,
+.text1,
+.text2,
+.text3,
+.merah,
+.bonus {
+  padding: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.foto img {
+  width: 300px;
+}
+
+footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 10px;
+}
